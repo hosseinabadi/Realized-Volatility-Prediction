@@ -4,7 +4,7 @@ import json
 from dateutil import rrule, parser
 import os
 from datetime import timedelta
-
+import time
 
 def get_data_alpha_vantage(start_date, end_date, stock_symbol):
     # Generate a list of all months between the start and end dates
