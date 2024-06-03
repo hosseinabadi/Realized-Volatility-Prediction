@@ -1,4 +1,4 @@
-Daily Realized Volatility Prediction of S$\&$P 500 Index (SPX)
+Daily Realized Volatility Prediction of SP500 Index (SPX)
 ====================
 
 The main goal of this project is to forecast daily volatility of the SP500 during the period 2016-2023.
