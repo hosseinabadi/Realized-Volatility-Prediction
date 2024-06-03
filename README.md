@@ -26,7 +26,7 @@ The sentimental analysis can be divided into these main passages:
 4. Analysis sentimental scores in [sentimental_and_plots.ipynb](https://github.com/hosseinabadi/Realized-Volatility-Prediction/blob/master/Sentiment%20Analysis/sentimental_and_plots.ipynb);
 5. Computation of extra weight which will be given to the first 50 firms of the SP500. Code is visible in [market_capitalization_weights.ipynb](https://github.com/hosseinabadi/Realized-Volatility-Prediction/blob/master/Sentiment%20Analysis/market_capitalization_weights.ipynb).
 
-Due to GitHub's storage limitations, some CSV files which were used cannot be uploaded. However, they can still be visualized [here](https://drive.google.com/drive/folders/1W8QDA1jgOxivhFTOHspg3MQxtIqEm2Ha?usp=drive_link).
+Due to GitHub's storage limitations, some CSV files which were used cannot be uploaded. However, they can still be visualized [here](https://drive.google.com/drive/folders/1W8QDA1jgOxivhFTOHspg3MQxtIqEm2Ha?usp=drive_link). However, they have to be saved in a Folder called "Data". For instance, the CSV file ```sp500_news_and_sentimental.csv``` must be present in ```Data\sp500_news_and_sentimental.csv```, as well as all the other CSV files.
 
 ## Amir's part :D
 
