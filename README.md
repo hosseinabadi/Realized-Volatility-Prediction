@@ -8,7 +8,6 @@ The main goal of this project is to forecast daily volatility of the SP500 durin
 Python
 PyTorch
 TensorFlow
-trasformers
 ```
 
 This project can be sub-divided into these main parts:
