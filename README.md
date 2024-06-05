@@ -8,7 +8,6 @@ The main goal of this project is to forecast daily volatility of the SP500 durin
 Python
 PyTorch
 TensorFlow
-trasformers
 ```
 
 This project can be sub-divided into these main parts:
@@ -25,6 +24,7 @@ The sentimental analysis can be divided into these main passages:
 3. Plots and analysis of of data scraped in the parts above in [plots_SP500.ipynb](https://github.com/hosseinabadi/Realized-Volatility-Prediction/blob/master/Sentiment%20Analysis/plots_SP500.ipynb)
 4. Analysis sentimental scores in [sentimental_and_plots.ipynb](https://github.com/hosseinabadi/Realized-Volatility-Prediction/blob/master/Sentiment%20Analysis/sentimental_and_plots.ipynb)
 5. Computation of extra weight which will be given to the first 50 firms of the SP500. Code is visible in [market_capitalization_weights.ipynb](https://github.com/hosseinabadi/Realized-Volatility-Prediction/blob/master/Sentiment%20Analysis/market_capitalization_weights.ipynb)
+6. Adjust sentiment scores taking into account the weights computed previously. Run [compute_weighted_sentiments.ipynb](https://github.com/hosseinabadi/Realized-Volatility-Prediction/blob/master/Sentiment%20Analysis/compute_weighted_sentiments.ipynb)
 
 Due to GitHub's storage limitations, some CSV files which were used cannot be uploaded. However, they can still be visualized [here](https://drive.google.com/drive/folders/1W8QDA1jgOxivhFTOHspg3MQxtIqEm2Ha?usp=drive_link).
 
