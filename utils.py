@@ -26,6 +26,7 @@ def plot_autocorrelations(columns, series_list, lags=30):
         plot_pacf(series_list[i], lags=lags, ax=axes[i, 1])
         axes[i, 1].set_title(f'Partial Autocorrelation of {column}')
 
+    plt.savefig(f"Outputs/Models/GARCH/{column}_acf_pacf.png")
     plt.tight_layout()
     plt.show()
 
