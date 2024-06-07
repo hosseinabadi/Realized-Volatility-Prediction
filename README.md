@@ -40,8 +40,8 @@ Before running financial econometrics and ML's models, we need to scrap financia
 
 Now, after data analysis was done, we ran the models:
 1. Regression models: Linear, Lasso, Ridge. Code can be visualized in [Regression.ipynb](https://github.com/hosseinabadi/Realized-Volatility-Prediction/blob/master/Regression.ipynb).
-2. Financial econometrics models(GARCH and VAR), with the testing of all their assumptions. The code can be found in [GARCH_VAR.ipynb](https://github.com/hosseinabadi/Realized-Volatility-Prediction/blob/master/GARCH_VAR.ipynb)
-3. Lastly, ML models were executed in [ML models.ipynb](https://github.com/hosseinabadi/Realized-Volatility-Prediction/blob/master/ML%20models.ipynb).
+2. Financial econometrics models (GARCH and VAR), with the testing of all their assumptions. The code can be found in [GARCH_VAR.ipynb](https://github.com/hosseinabadi/Realized-Volatility-Prediction/blob/master/GARCH_VAR.ipynb)
+3. Lastly, ML models (Random Forest, XGBoost, RNN, LSTM) were executed in [ML models.ipynb](https://github.com/hosseinabadi/Realized-Volatility-Prediction/blob/master/ML%20models.ipynb).
 
 All model results can be observed in [Results.ipynb](https://github.com/hosseinabadi/Realized-Volatility-Prediction/blob/master/Results.ipynb).
 
