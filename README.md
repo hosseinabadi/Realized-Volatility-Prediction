@@ -20,7 +20,7 @@ This project can be sub-divided into these main parts:
 Data was downloaded from these websites:
 * __CRSP__ was used for Market Capitalization of SP500 and the first 50 firms of the index
 * __Yahoo Finance__ was used for Indicators
-* __Economic Plicy Uncertainty__ was used for indicators
+* __Economic Policy Uncertainty__ was used for indicators
 
 ## Sentimental Analysis
 The sentimental analysis can be divided into these main passages:
