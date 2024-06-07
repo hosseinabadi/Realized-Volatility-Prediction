@@ -36,7 +36,7 @@ Due to GitHub's storage limitations, some CSV files which were used cannot be up
 In order to not encounter any problems with the codes, they have to be saved in a Directory called ```Data```. For instance, the CSV file ```sp500_news_and_sentimental.csv``` must be present in ```Data\sp500_news_and_sentimental.csv```, as well as all the other CSV files.
 
 ## Model Implementation
-Before running financial econometrics and ML's models, we need to scrap financial data from online and to subsequently merge it with the data from Oxford-Man Institute’s. All steps can be visualized in [RV dataset.ipynb](https://github.com/hosseinabadi/Realized-Volatility-Prediction/blob/master/RV%20dataset.ipynb). Then, data analysis is computed in [Data Analysis and Visualization.ipynb](https://github.com/hosseinabadi/Realized-Volatility-Prediction/blob/master/Data%20Analysis%20and%20Visualization.ipynb)
+Before running financial econometrics and ML's models, we need to scrap financial data from online and to subsequently merge it with the data from Oxford-Man Institute’s and TwelveData. All steps can be visualized in [RV dataset.ipynb](https://github.com/hosseinabadi/Realized-Volatility-Prediction/blob/master/RV%20dataset.ipynb). Then, data analysis is computed in [Data Analysis and Visualization.ipynb](https://github.com/hosseinabadi/Realized-Volatility-Prediction/blob/master/Data%20Analysis%20and%20Visualization.ipynb)
 
 Now, after data analysis was done, we ran the models:
 1. Regression models: Linear, Lasso, Ridge. Code can be visualized in [Regression.ipynb](https://github.com/hosseinabadi/Realized-Volatility-Prediction/blob/master/Regression.ipynb).
