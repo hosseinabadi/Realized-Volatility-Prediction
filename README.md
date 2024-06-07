@@ -5,9 +5,7 @@ The main goal of this project is to forecast daily volatility of the SP500 durin
 
 #### Requirements:
 ```
-Python
-PyTorch
-TensorFlow
+The requirements are inside the requirements.txt file.
 ```
 
 This project can be sub-divided into these main parts:
