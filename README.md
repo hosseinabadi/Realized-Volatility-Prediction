@@ -5,7 +5,7 @@ The main goal of this project is to forecast daily volatility of the SP500 durin
 
 #### Requirements:
 ```
-The requirements are inside the requirements.txt file.
+The requirements are inside the [requirements.txt](https://github.com/hosseinabadi/Realized-Volatility-Prediction/blob/master/requirements.txt) file.
 ```
 
 This project can be sub-divided into these main parts:
