@@ -3,17 +3,18 @@ Daily Realized Volatility Prediction of SP500 Index (SPX)
 
 This project focuses on predicting the daily realized volatility of the S&P 500 Index using various econometric and machine learning models. The research explores the effectiveness of traditional models, such as GARCH and VAR, compared to more advanced machine learning techniques, including LSTM and RNN.
 
-Key components of the project include:
+### Key Components
 
-Data Collection and Preprocessing: The dataset combines high-frequency data and macrofinancial indicators, alongside sentiment analysis of financial news headlines related to S&P 500 companies.
+- **Data Collection and Preprocessing**: The dataset combines daily data and macrofinancial indicators, alongside sentiment analysis of financial news headlines related to S&P 500 companies.
+  
+- **Model Development**: Univariate and multivariate models were developed, including GARCH, VAR, Linear Regression, Ridge, Lasso, Random Forest, XGBoost, Simple RNN, and LSTM. The models were trained and tested using robust evaluation metrics like **R²**, **RMSE**, **MAE**, and **MAPE**.
 
-Model Development: Univariate and multivariate models were developed, including GARCH, VAR, Linear Regression, Ridge, Lasso, Random Forest, XGBoost, Simple RNN, and LSTM. The models were trained and tested using robust evaluation metrics like R², RMSE, MAE, and MAPE.
+- **Sentiment Analysis**: The project incorporates sentiment scores derived from the VADER model applied to news headlines, enhancing the predictive power of the models.
 
-Sentiment Analysis: The project incorporates sentiment scores derived from the VADER model applied to news headlines, enhancing the predictive power of the models.
-
-Results and Comparison: The project systematically compares the out-of-sample forecasting performance of the models, highlighting the superior performance of LSTM in capturing complex temporal patterns in financial time series data.
+- **Results and Comparison**: The project systematically compares the out-of-sample forecasting performance of the models, highlighting the superior performance of LSTM in capturing complex temporal patterns in financial time series data.
 
 This research provides valuable insights into the application of machine learning in finance, particularly in volatility forecasting, and demonstrates the potential of integrating sentiment analysis with traditional financial modeling techniques.
+
 #### Requirements:
 ```
 The requirements are inside the requirements.txt file.
